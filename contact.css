@@ -1,0 +1,179 @@
+body {
+    font-size: 15pt;
+  color: white;
+ font-family: "Afacad Flux", sans-serif;
+  font-weight: 800px;
+  height: 80vh;
+}
+
+
+:root{
+  --min--color:#0072FF;
+  --green-color:#E78900;
+  --xx-color:rgba(0, 167, 242, 0.83)
+  --footer-color:#061E32
+}
+
+*{
+  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ header{
+  background: url("img.avif");
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 20px black;
+  padding: 13px 10px;
+  width: 100%;
+top: 0;  
+} 
+.icon{
+  display: none;
+}
+
+
+.nav ul{
+  display: flex;
+align-items: center;
+list-style: none
+  
+}
+ul li a.active{
+  color: var(--green-color);
+}
+ul li {
+  margin:0 50px;
+  
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 900
+}
+ul li a:hover{
+  color: var(--green-color);
+}
+
+.iconx{
+  display: none;
+}
+
+.logo i{
+
+  font-size: 30px;
+  padding:0 20px;
+  color: #74C0FC
+
+}
+.btn button{
+  border: 0;
+  border-radius: 5px;
+  padding: 15px 25px;
+  background: var(--min--color);
+  outline: 0;
+  
+}
+.btn button:hover{
+  background: var(--green-color);
+}
+
+.btn a{
+  color: white;
+font-weight: bold;
+text-decoration: none
+}
+
+
+.Contact h1{
+  margin-top: 130px ;
+   position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+padding: 10px 50px;
+border:2px solid var(--green-color);
+color: var(--green-color);
+top: -30px;
+ 
+}
+.Contact h1:after{
+   content:" ";
+ position: absolute;
+ left: 50%;
+ transform: translate(-50%);
+ padding:47px 98px;
+ border: 2px solid var(--green-color);
+ bottom:-12px;
+
+  
+}
+.continer-contact{
+  position: absolute;
+  top: 30%;
+  margin: 50px auto;
+  width: 50%;
+  background: white;
+  color: #000;
+  display: flex;
+  width: 10%;
+  justify-content: space-between;
+  
+}
+.continer-contact h1{
+  position: relative;
+  top: 40%;
+}
+.fill-Form{
+  
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  background: red;
+}
+form{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+input{
+  padding: 18px;
+  margin: 10px 10px;
+  
+}
+label{
+ margin: 0 25px; 
+}
+#inputone{
+  height: 200px;
+  width: 300px;
+}
+.Reach-form{
+  display: block;
+  margin: 40px;
+  height: 70vh;
+  width: 150%;
+  
+}
+.Reach-form h3{
+  width: 100%;
+  margin: 15px
+}
+/* 
+h2{
+  position: absolute;
+  right: -5px;
+  top:-50px;
+  color: white;
+  margin: 10px;
+  background: var(--green-color);
+  width: 52%;
+  
+} */
+
+h3{
+  color: #000000A8;
+}
+span{
+  color: #000;
+}

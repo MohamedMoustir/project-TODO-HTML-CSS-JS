@@ -1,0 +1,268 @@
+body {
+    font-size: 15pt;
+  color: white;
+ font-family: "Afacad Flux", sans-serif;
+  font-weight: 800px;
+  height: #ECECEC;
+  height: 100vh;
+}
+
+
+:root{
+  --min--color:#0072FF;
+  --green-color:#E78900;
+  --xx-color:rgba(0, 167, 242, 0.83)
+}
+
+*{
+  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header,
+head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 20px black;
+  padding: 13px 10px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+.icon{
+  display: none;
+}
+nav{
+  background: url("img.avif");
+  background-repeat: no-repeat ;
+  background-size:cover ;
+  filter: blur(2px);
+height: 140vh;
+}
+.nav ul{
+  display: flex;
+align-items: center;
+list-style: none
+  
+}
+ul li a.active{
+  color: var(--green-color);
+}
+ul li {
+  margin:0 50px;
+  
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 900
+}
+ul li a:hover{
+  color: var(--green-color);
+}
+
+.iconx{
+  display: none;
+}
+
+.logo i{
+
+  font-size: 30px;
+  padding:0 20px;
+  color: #74C0FC
+
+}
+.btn button{
+  border: 0;
+  border-radius: 5px;
+  padding: 15px 25px;
+  background: var(--min--color);
+  outline: 0;
+  
+}
+
+.btn a{
+  color: white;
+font-weight: bold;
+text-decoration: none
+}
+.btn button:hover{
+  background: var(--green-color);
+}
+.contine{
+  position: absolute;
+  top: 30%;
+  left: 8%;
+  text-align: left;
+}
+.contine h2{
+  width: 100%;
+  padding: 20px 0;
+  color: var(--green-color);
+}
+.contine p{
+  color: #FFF6F6DB;
+  line-height: 30px;
+  width: 500px;
+  flex-wrap: wrap;
+  
+}
+.contine button{
+  padding: 15px 35px;
+  background: var(--min--color);
+  border: 0;
+  margin: 20px 0;
+  color: white;
+  border-radius: 3px;
+  font-weight: 900
+}
+.contine button:hover{
+  background: var(--green-color);
+}
+
+/* login.css */
+
+.navigtion{
+  
+   position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 17%;
+   padding:50px 20px;
+  box-shadow: 0 2px 20px white;
+  text-align: center;
+  border-radius: 5%;
+  z-index: 1; 
+   
+}
+.icon-lgin i{
+  font-size: 60px;
+  border: 2px solid white;
+  padding: 3px 10px;
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 10%;
+}
+
+#input-text,
+#input-pass{
+  border: 0;
+  padding: 15px 0;
+  margin: 20px;
+  width: 320px;
+  border-bottom: 2px solid white;
+  background: 0;
+  color: white;
+  font-weight: bold
+}
+
+#input-text::placeholder,
+#input-pass::placeholder{
+  color: #FFFFFFB5;
+  margin:0 40px ;
+}
+
+#input-text:hover,
+#input-pass:hover{
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid white;
+  
+  
+}
+
+#input-check{
+  position: absolute;
+  left: 30px;
+  margin: 45px 0;
+  
+}
+#Text-Remember{
+  display: flex;
+  justify-content: space-around;
+  margin: 38px 0;
+  
+}
+#Text-Remember a{
+  text-decoration: none;
+  color: white;
+}
+
+#submit{
+  padding:15px 100px;
+  border-radius: 3px ;
+  outline: 0;
+  border: 0;
+  background: var(--min--color);
+  color: white;
+  font-weight: bold ;
+}
+
+form h3{
+  margin: 30px 0
+}
+.text1{
+  position: absolute;
+  top: 180px;
+  right:43px;
+}
+.pass1{
+  position: absolute;
+top: 92px;
+right: 43px;
+}
+form h3 a{
+  color: var(--min--color);
+}
+input{
+  outline: 0;
+  border: 0;
+}
+
+
+/* register login */
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"]{
+  padding: 20px ;
+  margin: 10px;
+  background: 0;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+}
+input[type="text"]::placeholder,
+input[type="password"]::placeholder,
+input[type="number"]::placeholder,
+input[type="email"]::placeholder
+{
+  color: white;
+}
+
+.chek{
+  align-items: center
+}
+.chek h4{
+  position: absolute;
+  left: 60px;
+}
+#checkbox {
+  position: absolute;
+  left: 30px;
+}
+.editSub{
+  padding: 20px 30px;
+border-radius: 5px;
+outline: 0;
+border: 0;
+background: var(--min--color);
+color: white;
+font-weight: bold;
+text-decoration: none
+}
